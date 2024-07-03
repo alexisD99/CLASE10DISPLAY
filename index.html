@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>While - Ejemplo 05</title>
+    <link rel="stylesheet" href="css//estilos.css">
+</head>
+<body>
+    <div class="cabecera">
+        <div style="width: 75%;margin:auto">
+            <div style="float: left;">
+                Instituto CERTUS
+            </div>
+            <div style="float: right;padding: 10px;">
+                atención@certus.edu.pe
+            </div>
+            <div>
+                <img src="img/banner2.jpg"  width="100%" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="cuerpo">
+        <div id="barra">
+            <p style="text-align: center;margin-bottom: 30px;" >Menú Principal</p>
+            <ul>
+                <li><a href="#" onclick="mostrarPag('pagina1')"> <img src="img//51020948_2197196420343939_2259268456870313984_o.jpg" width="10%" alt="">Sala de musica</a></li>
+                <li><a href="#" onclick="mostrarPag('pagina2')"> <img src="img/YfvHBl.jpg" width="10%" alt="">Teclados profesionales</a></li>
+                <li><a href="#" onclick="mostrarPag('pagina3')"> <img src="img/89e36b9161f9e4fb57c1fc23c256f776.jpg" width="10%" alt="">Baterias acústicas</a></li>
+                <li><a href="#" onclick="mostrarPag('pagina4')"> <img src="img/3cd3d96e3e0ab0aefc9bc6333fd6948b.jpg" width="10%" alt="">Versiones de Bajo</a></li>
+                <li><a href="#" onclick="cerrar();">Cerrar Sesión</a></li>
+            </ul>
+            
+        </div>
+        <div id="contenido">
+            <div id="pagina1" class="pag active">
+                <h1>Sala de Instrumentos</h1>
+                <p>bajo-guitarra-teclado-consola</p>
+                <img src="img//51020948_2197196420343939_2259268456870313984_o.jpg" width="100%" alt="">
+            </div>
+            <div id="pagina2" class="pag">
+                <h1>teclados</h1>
+                <p> Buena Calidad de Sonido y profesionales</p>
+                <img src="img//YfvHBl.jpg" width="100%" alt="">
+            </div>
+            <div id="pagina3" class="pag">
+                <h1>Baterias acústicas</h1>
+                <p>Platillos-toms-tarola</p>
+                <img src="img//89e36b9161f9e4fb57c1fc23c256f776.jpg" width="100%" alt="">
+            </div>
+            <div id="pagina4" class="pag">
+                <h1>Bajos Profesionales</h1>
+                <p>4 cuerdas- 5 cuerdas </p>
+                <img src="img//3cd3d96e3e0ab0aefc9bc6333fd6948b.jpg" width="100%" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="pie">
+        <div style="width: 100%;">
+            <div style="text-align: center;">
+                Autor: Alexis Fabian Daza <br>
+                Instituto CERTUS | Carreras Tecnicas y Educación continua
+            </div>
+        </div>
+    </div>
+    <script src="js//codigo.js"></script>
+</body>
+</html>
